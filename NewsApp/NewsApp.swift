@@ -1,5 +1,5 @@
 //
-//  NewsAppApp.swift
+//  NewsApp.swift
 //  NewsApp
 //
 //  Created by Mochamad Nurkhayal Kadafi on 18/11/26.
@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct NewsAppApp: App {
+struct NewsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CategoriesRouter.createModule()
         }
     }
 }
